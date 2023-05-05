@@ -1,6 +1,7 @@
 .photo{
     padding: 10%;
     display: flex;
+    gap: 20px;
 }
 
 .sobre{

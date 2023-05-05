@@ -3,7 +3,7 @@ import styles from './Photo.module.css'
 
 function Photo(){
     return(
-        <div className = {styles.photo}>
+        <div id='sobre' className = {styles.photo}>
             <img  style={{
                 width: 300,
                 borderRadius: 500
