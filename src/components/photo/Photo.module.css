@@ -1,3 +1,16 @@
 .photo{
     padding: 10%;
+    display: flex;
+}
+
+.sobre{
+    padding: 15px 50px;
+
+}
+
+@media screen and (max-width: 630px){
+    .photo{
+        flex-direction: column;
+        text-align: center;
+    }
 }

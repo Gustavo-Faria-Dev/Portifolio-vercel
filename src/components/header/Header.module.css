@@ -9,12 +9,13 @@
     font-family: 'Red Hat Display', sans-serif;
     font-size: large;
     background-color: #494646;
-    background-image: linear-gradient(315deg, #807d7d 0%, #0e0e0e 74%);     
+    background-image: linear-gradient(315deg, #807d7d 0%, #0e0e0e 74%);  
+    display: flex;   
+    flex-direction: row;
 
 }
 .Im{
     background-color: transparent;
-    display: inline-block;
     width: 50%;
     height: 100%;
   
@@ -23,7 +24,12 @@
 
 .goTo{
     background-color: transparent;
-    display: inline-block;
-    padding-right: 20px;
-    width: 10%;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 425px){
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
 }
