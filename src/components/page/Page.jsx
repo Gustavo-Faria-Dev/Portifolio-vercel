@@ -2,10 +2,11 @@ import styles from './Page.module.css'
 
 function Page() {
     return(
-        <div className={styles.header}>
-            dsaiodhjaiodnjaisdnainds
-        </div>
-
+        <header className={styles.header}>
+            Gustavo Faria
+            
+        </header>
+        
     )
   
 }
