@@ -1,12 +1,16 @@
 import styles from './Page.module.css'
 
+import Header from '../header/Header'
+import Photo from '../photo/Photo'
+
 function Page() {
     return(
-        <header className={styles.header}>
-            Gustavo Faria
-            
-        </header>
+        <>
+        <Header />
+        <Photo />
         
+        </>
+    
     )
   
 }
