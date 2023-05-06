@@ -2,6 +2,8 @@
     padding: 10%;
     display: flex;
     gap: 20px;
+
+    background-color: aqua;
 }
 
 .sobre{
@@ -9,7 +11,7 @@
 
 }
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 430px){
     .photo{
         flex-direction: column;
         text-align: center;

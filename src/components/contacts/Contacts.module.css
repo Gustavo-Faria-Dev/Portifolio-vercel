@@ -1,4 +1,17 @@
 .contacts{
-    min-height: 400px;
-    padding: 100px 100px;
+    padding: 30px 30px;
+    display: flex;
+    gap: 70px;
+
+    background-color: aqua;
+}
+
+
+
+@media screen and (max-width: 430px){
+    .contacts{
+        flex-direction: column;
+        text-align: center;
+    }
+    
 }
