@@ -1,9 +1,10 @@
 .contacts{
     padding: 30px 30px;
-    display: flex;
-    gap: 70px;
-
-    background-color: aqua;
+    display: flex;  
+    text-align: center;
+    flex-direction: column;
+    gap: 40px;
+  
 }
 
 
