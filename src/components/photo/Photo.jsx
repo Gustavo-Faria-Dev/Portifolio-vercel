@@ -9,8 +9,11 @@ function Photo(){
                 borderRadius: 500
 
             }} src = '/images/eu.jpeg' />
-
+            <div className={styles.box}>
+             
+            </div>
             <div className={styles.sobre}>
+            
             <h1>
                 Sobre
             </h1>

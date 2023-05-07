@@ -21,7 +21,10 @@ function Header (){
     return(
         <header className={styles.header}>
             <div className={styles.Im}>
-            Gustavo Faria
+              <img src = {`/images/pc.png`} width={40}/>
+            </div>
+            <div className={styles.Im}>
+              Gustavo Faria
             </div>
 
             <div className={styles.box}>
@@ -31,6 +34,9 @@ function Header (){
 
             <button className={styles.goTo} onClick={handleClickScroll2}>
                 Sobre
+            </button>
+            <button className={styles.goTo} onClick={handleClickScroll2}>
+                Skills
             </button>
             <button className={styles.goTo} onClick={handleClickScroll} >
                 Contatos

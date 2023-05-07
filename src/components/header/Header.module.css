@@ -12,19 +12,21 @@
     background-image: linear-gradient(315deg, #807d7d 0%, #0e0e0e 74%);  
     display: flex;   
     flex-direction: row;
+    gap: 10px;
 
 
 }
 .Im{
     background-color: transparent;    
     font-size: 30px;
-    padding-top: 30px;
+
     text-align: center;
+    
   
 }
 
 .box{
-    width: 50%;
+    width: 46%;
     background-color: transparent;
 }
 
@@ -35,7 +37,8 @@
     font-size: 18px;
     font-family: 'Red Hat Display', sans-serif;
     padding: 15px 30px;
-  
+    
+    cursor: pointer;
   
 
 }

@@ -6,8 +6,12 @@
 }
 
 .sobre{
-    padding: 15px 50px;
+    padding-top:40px;
+    text-align: justify;
+}
 
+.box{
+    width: 40%;
 }
 
 @media screen and (max-width: 430px){
