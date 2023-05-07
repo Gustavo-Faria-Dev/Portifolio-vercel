@@ -17,6 +17,17 @@ function Header (){
         }
       };
 
+      const handleClickScroll3 = () => {
+        const element = document.getElementById('skills');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+      
+
+    
+
+
 
     return(
         <header className={styles.header}>
@@ -35,7 +46,7 @@ function Header (){
             <button className={styles.goTo} onClick={handleClickScroll2}>
                 Sobre
             </button>
-            <button className={styles.goTo} onClick={handleClickScroll2}>
+            <button className={styles.goTo} onClick={handleClickScroll3}>
                 Skills
             </button>
             <button className={styles.goTo} onClick={handleClickScroll} >
