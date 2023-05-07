@@ -7,9 +7,9 @@ function Contacts(){
       
         <div id= "contacts" className={styles.contacts}>
         <div>
-        <h1>
+        <h2>
             Contatos
-        </h1>
+        </h2>
         </div>
             
         <div className={styles.images}>

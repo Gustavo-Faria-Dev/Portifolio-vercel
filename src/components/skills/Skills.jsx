@@ -4,10 +4,21 @@ function Skills(){
     return(
 
         <div className={styles.skills}>
+            <div>   
+                <h1>
+                    Skills
+                </h1>
+            </div>
+            <div className={styles.box}>
 
-        <h1>
-            Skills
-        </h1>
+            </div>
+            <div className={styles.list}>
+                <li>React</li>
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </div>
+            
         </div>
 
     )
