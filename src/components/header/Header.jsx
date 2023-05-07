@@ -23,12 +23,19 @@ function Header (){
             <div className={styles.Im}>
             Gustavo Faria
             </div>
+
+            <div className={styles.box}>
+
+            </div>
+     
+
             <button className={styles.goTo} onClick={handleClickScroll2}>
-                About
+                Sobre
             </button>
             <button className={styles.goTo} onClick={handleClickScroll} >
                 Contatos
             </button>
+          
                       
         </header>
     )
