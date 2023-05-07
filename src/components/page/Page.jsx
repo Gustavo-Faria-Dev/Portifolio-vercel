@@ -8,10 +8,10 @@ import Skills from '../skills/Skills'
 function Page() {
     return(
         <>
-        <Header />
-        <Photo />
-        <Skills />
-        <Contacts />
+            <Header />
+            <Photo />
+            <Skills />
+            <Contacts />
         </>
     
     )
