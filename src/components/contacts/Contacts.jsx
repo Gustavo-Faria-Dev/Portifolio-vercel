@@ -27,7 +27,7 @@ function Contacts(){
             </a>
         </div>
     
-       
+        <p>desenvolvido por gu.co</p>
         </div>    
     
     
